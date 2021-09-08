@@ -1,0 +1,287 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>plannable</title>
+	<meta name="description" content="Documentation for plannable">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="assets/js/search.json" data-base=".">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="index.html" class="title">plannable</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="globals.html">Globals</a>
+				</li>
+			</ul>
+			<h1>plannable</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<div class="tsd-panel tsd-typography">
+				<p align="center"><img src="./src/assets/cover.jpg" width="560px" alt="cover"/></p>
+				<p align="center">
+					<a href="https://www.gnu.org/licenses/gpl-3.0" rel="nofollow">
+						<img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPL v3" />
+					</a>
+					<a href="https://travis-ci.com/github/awesome-schedule/plannable" rel="nofollow">
+						<img src="https://travis-ci.com/awesome-schedule/plannable.svg?branch=master" alt="Build Status" />
+					</a>
+					<a href="https://codecov.io/gh/awesome-schedule/plannable" rel="nofollow">
+						<img src="https://codecov.io/gh/awesome-schedule/plannable/branch/master/graph/badge.svg" alt="codecov" />
+					</a>
+					<a href="http://makeapullrequest.com" rel="nofollow">
+						<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" />
+					</a>
+					<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fawesome-schedule%2Fplannable?ref=badge_shield"
+					rel="nofollow">
+					<img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fawesome-schedule%2Fplannable.svg?type=shield"
+					alt="FOSSA Status" />
+					</a>
+				</p>
+				<a href="#plannable" id="plannable" style="color: inherit; text-decoration: none;">
+					<h1>Plannable</h1>
+				</a>
+				<blockquote>
+					<p>Previously known as Awesome-Schedule</p>
+				</blockquote>
+				<p>A website which helps UVa students to schedule their classes more efficiently. Get your class selection done with the searching field and customize them with filters and sort options. Once you&#39;ve finalized your class selection, hit &quot;Generate&quot; button and get all the possible schedules satisfying to your requirements.</p>
+				<a href="#website" id="website" style="color: inherit; text-decoration: none;">
+					<h2>Website</h2>
+				</a>
+				<p><a href="https://plannable.org/">https://plannable.org/</a></p>
+				<p>Our website consists of only front-end components, i.e. all the scripts run in your browser and data are stored locally. It fetches data from <a href="https://rabi.phys.virginia.edu/mySIS/CS2/">Lou&#39;s list</a> on page load and store it in browser cache.</p>
+				<p>However, optional backend storage features are available. Users can choose to login to a third-party website and store their plannable profiles. This enables cross-device profile syncing. We currently support <a href="https://match.msnatuva.org">Hoosmyprofessor</a>. If you wish to provide such service, please refer to our <a href="./docs/Backend%20Specification.md">backend specification</a> for more details.</p>
+				<a href="#mirror" id="mirror" style="color: inherit; text-decoration: none;">
+					<h2>Mirror</h2>
+				</a>
+				<p><s> To facilitate access in China, we provide a mirror: <a href="https://cn.plannable.org/">https://cn.plannable.org/</a>. It is synchronized with <a href="https://plannable.org/">https://plannable.org/</a> once per hour.</s></p>
+				<blockquote>
+					<p>Note: due to technical issues, the synchronization must be performed manually, so the mirror might not be up-to-date. I suggest to use the main website <a href="https://plannable.org/">https://plannable.org/</a>.</p>
+				</blockquote>
+				<a href="#supported-browsers" id="supported-browsers" style="color: inherit; text-decoration: none;">
+					<h3>Supported browsers</h3>
+				</a>
+				<p>Since Plannable uses some of the cutting-edge features of CSS and Javascript, it requires relatively recent versions of the mainstream browsers. Specifically, Edge &gt;= 16, Firefox &gt;= 52, Chrome &gt;= 57, Safari &gt;= 11, Opera &gt;= 44 are supported. IE is not supported. Plannable might also work on browsers not mentioned above, as long as the newer features such as ES6, WebAssembly and CSS Grid are supported. </p>
+				<a href="#desktop-app" id="desktop-app" style="color: inherit; text-decoration: none;">
+					<h2>Desktop App</h2>
+				</a>
+				<blockquote>
+					<p>powered by electron</p>
+				</blockquote>
+				<p>The desktop app of plannable can be downloaded from <a href="https://github.com/awesome-schedule/plannable/releases">releases</a>.</p>
+				<a href="#note-for-windows-and-macos-users" id="note-for-windows-and-macos-users" style="color: inherit; text-decoration: none;">
+					<h3>Note for Windows and MacOS users</h3>
+				</a>
+				<p>Your operating system may block the execution of the app because it is unrecognized/unsigned. We do not have the signed certificates which cost at least 200$ per year. You can proceed safely because there is no security risk.</p>
+				<a href="#note-for-linux-users" id="note-for-linux-users" style="color: inherit; text-decoration: none;">
+					<h3>Note for Linux users</h3>
+				</a>
+				<p>If you use AppImage, you need to add execution permission before launching the file</p>
+				<pre><code class="language-bash">chmod +x plannable-x.x.x.AppImage</code></pre>
+				<p>If you use snap, you can install plannable from the snap store</p>
+				<pre><code>sudo snap <span class="hljs-keyword">install</span> plannable</code></pre>
+				<a href="#development" id="development" style="color: inherit; text-decoration: none;">
+					<h2>Development</h2>
+				</a>
+				<blockquote>
+					<p>Note: We recommend <a href="https://code.visualstudio.com/">VS Code</a> and a Unix-like environment for development</p>
+				</blockquote>
+				<a href="#note-for-windows-users" id="note-for-windows-users" style="color: inherit; text-decoration: none;">
+					<h3>Note for Windows users</h3>
+				</a>
+				<p>Most of our scripts assumed a bash-like shell. If you&#39;re using windows, you can use git bash, cygwin, or WSL bash shell. Make sure to change npm&#39;s default shell by using</p>
+				<pre><code class="language-bash">npm config <span class="hljs-built_in">set</span> script-shell YOURSHELL</code></pre>
+				<a href="#install-dependencies-and-launch-development-server" id="install-dependencies-and-launch-development-server" style="color: inherit; text-decoration: none;">
+					<h3>Install Dependencies and Launch Development Server</h3>
+				</a>
+				<blockquote>
+					<p>On Linux, you may need to increase you system file watcher limit</p>
+				</blockquote>
+				<ul>
+					<li>  Node.js &gt;= 12.x</li>
+				</ul>
+				<p>Clone this repository. The <code>updatedata</code> script will automatically clone <code>https://github.com/awesome-schedule/data</code> into <code>scripts</code> so the data (e.g. course catalog) can be access locally. The <code>getwasm</code> script will clone the pre-build wasm binary. Note that if you want to build wasm yourself, please refer to the Build WASM section below.</p>
+				<pre><code class="language-bash">git <span class="hljs-built_in">clone</span> https://github.com/awesome-schedule/plannable &amp;&amp; <span class="hljs-built_in">cd</span> plannable
+npm run updatedata
+npm run getwasm</code></pre>
+				<p>Install dependencies and launch the development server</p>
+				<pre><code class="language-bash">npm install
+npm run serve</code></pre>
+				<p>You need to serve the static files in scripts/data, because we only load local data in local development mode. To do so, open a new terminal and run <code>npm run data</code>. This will open a static http server listening to port <code>8000</code> with cross origin headers. This static server must run on <code>localhost:8000</code>.</p>
+				<p>Then you can visit the development server shown in the terminal.</p>
+				<a href="#build-desktop-app" id="build-desktop-app" style="color: inherit; text-decoration: none;">
+					<h3>Build Desktop App</h3>
+				</a>
+				<p>You can use <code>npx electron .</code> to launch the native application powered by electron.</p>
+				<p>You can use <code>npx electron-builder --win</code> (or <code>--mac</code>, <code>--linux</code>) to build the native executable for your platform.</p>
+				<a href="#build-webassembly-wasm" id="build-webassembly-wasm" style="color: inherit; text-decoration: none;">
+					<h3>Build WebAssembly (WASM)</h3>
+				</a>
+				<blockquote>
+					<p>Plannable utilizes WASM to speed up some of its compute-intensive part</p>
+				</blockquote>
+				<p>Make sure that you have <a href="https://emscripten.org/docs/getting_started/downloads.html">Emscripten</a> installed. Also make sure that emsdk_env.sh is sourced before running the following scripts.</p>
+				<p>Before you can build the binary, you need to download dependencies (parallel-hashmap and GLPK) and compile GLPK. This only needs to be done once, with the following script:</p>
+				<pre><code class="language-bash">npm run getdep</code></pre>
+				<p>Then, each time you modify any cpp file, you can simply do</p>
+				<pre><code class="language-bash">npm run wasm -- dev</code></pre>
+				<p>to build the wasm binary and js glue code, which will be moved to public/js.</p>
+				<a href="#contributors" id="contributors" style="color: inherit; text-decoration: none;">
+					<h2>Contributors</h2>
+				</a>
+				<p>Please refer to our <a href="docs/Contribution.md">Contribution Log</a> or <a href="https://github.com/OAHC2022/UVaAutoScheduler/graphs/contributors">GitHub contribution statistics</a></p>
+				<a href="#contributing" id="contributing" style="color: inherit; text-decoration: none;">
+					<h2>Contributing</h2>
+				</a>
+				<p>Please refer to our <a href="docs/README.md">documentation</a> and <a href="docs/CONTRIBUTING.md">contributing guide</a>.</p>
+				<a href="#integrate-with-other-schoolscustom-data-source" id="integrate-with-other-schoolscustom-data-source" style="color: inherit; text-decoration: none;">
+					<h2>Integrate with other schools/custom data source</h2>
+				</a>
+				<p>Some efforts have been made to make it easier to integrate plannable with other universities. If you want to use plannable to create course-scheduling websites for other universities, you probably need to:</p>
+				<ol>
+					<li>Fork this repository</li>
+					<li>Overwrite src/config.ts with your custom configuration. See <a href="src/config.example.ts">src/config.example.ts</a> for reference</li>
+					<li>Write your custom data loader that returns the correct objects in config.ts</li>
+					<li>Make some tweaks to the source code in other places if needed.</li>
+					<li>Build and deploy to some other places</li>
+				</ol>
+				<p>If you have questions when integrating plannable with other schools or want to deploy your favor of plannable to a subdomain of plannable (e.g. yourschool.plannable.org), feel free to contact us by GitHub issue or email.</p>
+				<a href="#license" id="license" style="color: inherit; text-decoration: none;">
+					<h2>License</h2>
+				</a>
+				<p>This project is licensed under GPL-3.0 - see the <a href="LICENSE">LICENSE</a> file for details</p>
+			</div>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="globals.html"><em>Globals</em></a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/src.html">src</a>
+					</li>
+					<li class=" tsd-kind-namespace tsd-is-not-exported">
+						<a href="modules/src.html">src</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/src_app.html">src/<wbr>App</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/src_algorithm.html">src/algorithm</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/src_components.html">src/components</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/src_components_tabs.html">src/components/tabs</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/src_config.html">src/config</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/src_data.html">src/data</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/src_main.html">src/main</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/src_models.html">src/models</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/src_routes.html">src/routes</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/src_store.html">src/store</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/src_utils.html">src/utils</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
